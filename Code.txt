@@ -1,7 +1,58 @@
-First download the Amazon Consumer Review dataset from the internet. Now, we open the dataset in excel. Now , we load the data into the power query editor. Now select the "reviewsdate" column and select the transform tool option from the toolbar menu. From the transform tool ribbon, select date option in the date and time column. From that select year and extract the year. Now close and load this data and name it as modified data.
+First download the Amazon Consumer Review dataset from the internet.
 
-Now select this data and insert a pivot table in a new worksheet. Now select the "reviews date" from the pivot table fields and drag it to the row area. Now select "review rating" from the field and drag it to the values area and set value as average of review ratings. Now select insert tool. From the insert tool ribbon, select pivot chart. Now select a line chart. We will get a graph. This graph shows the change in average review rating(all the review scores combined) as a function of time. Now click on the chart, select design from the pivot chart tools and choose an appropriate design for the graph. Now we need to create slicers. For that, select insert tool. From the insert tool ribbon select slicer. Insert slicers for "reviews date" and "reviews rating". Now we can use the slicer and show the variation of average of highscores, average of medium scores and average of low scores as a function of year.
+Now, we open the dataset in excel.
+ 
+Now , we load the data into the power query editor.
+ 
+Now select the "reviewsdate" column and select the transform tool option from the toolbar menu. 
 
-Now, let's do the product analysis. For this we select the modified data and create a pivot table. Select "Name" from the pivot table field and drag it to the row area. Also select "reviews ratings" from the pivot table field and drag it to the values area and set value as sum of "review ratings". Now create the graph using this pivot table. Now insert slicer's for "name",  "reviews rating", "year". Now, select 4 & 5 in "reviews rating".Now observe the plot. This shows which item contributed most in the high score and which items contributed the least.
-Similarly, we can also plot the high score variation. Create pivot table with "review rating", "year", "name" fields dragged under row area. Also "review rating" is dragged under value area and set value as sum of "review ratings". Now plot the graph. Now insert slicer for "name", "reviews rating", "year". Select score 4 & 5 in the "reviews rating" slicer and observe the plot.
+From the transform tool ribbon, select date option in the date and time column. 
+
+From that select year and extract the year. 
+
+Now close and load this data and name it as modified data.
+
+Now select this data and insert a pivot table in a new worksheet.
+ 
+Now select the "reviews date" from the pivot table fields and drag it to the row area. 
+
+Now select "review rating" from the field and drag it to the values area and set value as average of review ratings. 
+
+Now select insert tool. From the insert tool ribbon, select pivot chart.
+ 
+Now select a line chart. We will get a graph. This graph shows the change in average review rating(all the review scores combined) as a function of time.
+ 
+Now click on the chart, select design from the pivot chart tools and choose an appropriate design for the graph.
+ 
+Now we need to create slicers. For that, select insert tool. From the insert tool ribbon select slicer. 
+
+Insert slicers for "reviews date" and "reviews rating".
+ 
+Now we can use the slicer and show the variation of average of highscores, average of medium scores and average of low scores as a function of year.
+
+Now, let's do the product analysis. 
+
+For this we select the modified data and create a pivot table. 
+
+Select "Name" from the pivot table field and drag it to the row area.
+ 
+Also select "reviews ratings" from the pivot table field and drag it to the values area and set value as sum of "review ratings". 
+
+Now create the graph using this pivot table. 
+
+Now insert slicer's for "name",  "reviews rating", "year". 
+ 
+Now, select 4 & 5 in "reviews rating".Now observe the plot. 
+
+This shows which item contributed most in the high score and which items contributed the least.
+
+Similarly, we can also plot the high score variation. Create pivot table with "review rating", "year", "name" fields dragged under row area. 
+
+Also "review rating" is dragged under value area and set value as sum of "review ratings". 
+
+Now plot the graph. 
+
+Now insert slicer for "name", "reviews rating", "year". 
+
+Select score 4 & 5 in the "reviews rating" slicer and observe the plot.
  
